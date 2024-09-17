@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\User;
 
 // Đổi App\User thành App\Models\User
+
 use Database\Seeders\RolesAndPermissionsSeeder;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;

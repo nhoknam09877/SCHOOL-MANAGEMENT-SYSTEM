@@ -51,7 +51,7 @@ class DatabaseSeeder extends Seeder
         // Tạo người dùng Student
         $user4 = User::create([
             'name' => 'Student',
-            'email' => 'student@mail.com',
+            'email' => 'studentController@mail.com',
             'password' => bcrypt('123'),
             'created_at' => date("Y-m-d H:i:s")
         ]);

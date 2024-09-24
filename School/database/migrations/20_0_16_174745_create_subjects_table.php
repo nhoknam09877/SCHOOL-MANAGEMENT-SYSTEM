@@ -17,7 +17,7 @@ class CreateSubjectsTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('slug');
-            $table->unsignedBigInteger('subject_code');
+            $table->String('subject_code');
             $table->unsignedBigInteger('teacher_id');
             $table->text('description');
             $table->timestamps();
